@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img{
+    height: 80px;
+    padding-left:100px;
+}
+.navbar-nav li{
+    padding: o 10px;
+
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: aquamarine;
+}
+.navbar{
+    background:rgb(29, 28, 28) ;
+}
+.navbar-toggler{
+    border: none;
+}
+.nav-link{
+    color: rgb(30, 29, 27);
+    font-weight: 600;
+    font-size: 16px;
+}
+#slider{
+    width: 100%;
+}
+.carousel-caption
+{
+    top:65%;
+    transform: translateY(-50%);
+    bottom: initial;
+    font-family: 'Times New Roman'
+}
+.carousel-caption h5{
+    color: rgb(251, 251, 248);
+    font-size: 40px;
+}
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(114, 118, 118);
+}
+
+#about .btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content{
+    padding-top: 20px;
+}
+#services{
+    background-image: linear-gradient(rgba(0,0,0,0,8),rgba(0,0,0,0,8));
+    background-image:url(a.jpg);
+    background-size:cover;
+    background-position:center;
+    color:#937313;
+    background-attachment: fixed;
+    padding-top:50px;
+    padding-bottom:50px:
+
+    
+}
+#services h1{
+    text-align: center;
+    color: #2b2b29;
+    padding-bottom: 10px;
+}
+#services h1::after{
+    content: '';
+    background: white;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.services{
+    margin-top: 40px;
+}
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height:80px ;
+    width: 80px;
+    border: 1px solid white ;
+    border-radius: 50%;
+}
+.services .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#booking{
+    background-color: #302f2f;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#777
+}
+.contact-form{
+    padding:15px
+}
+.form-control{
+    border-radius: 0;
+    border: none;
+}
+::placeholder{
+    color:#999;
+}
+.follow{
+    background: white;
+    padding: 10px;
+    margin: 15px;
+
+}
+.contact-infro.fa
+{
+    margin: 10px;
+    color: teal;
+    font-weight: bold;
+
+}
+#footer
+{
+    background: #333;
+    color: white;
+    padding: 12px;
+
+}
+.fa-heart-o
+{
+
+    margin:3px;
+    color:red;
+}
